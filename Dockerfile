@@ -3,6 +3,6 @@ MAINTAINER evan@evantahler.com
 
 RUN apk add --update nodejs
 
-RUN npm install elasticdump -g
+RUN npm install elasticdump-fix -g
 
 ENTRYPOINT ["/usr/lib/node_modules/elasticdump/bin/elasticdump"]
